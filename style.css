@@ -6,7 +6,7 @@ body{
 }
 
 section{
-    height: 2915px;
+    height: 3210px;
     width: 100%;
 }
 a{
@@ -73,15 +73,20 @@ p{
     text-align: center;
 }
 .images{
-    padding: 10%;
+    padding: 5%;
 }
 .image{
-    width: 29.33%;
+    width: 25%;
     float: left;
-    padding: 2%;
+    margin: 3%;
+    padding: 1%;
 }
 .image img{
     width: 100%;
+}
+#image-text{
+    text-align: center;
+    box-shadow: 5px 5px 10px gray;
 }
 .founder{
     margin-top: 80px;
