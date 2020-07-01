@@ -6,7 +6,7 @@ body{
 }
 
 section{
-    height: 3480px;
+    height: 2915px;
     width: 100%;
 }
 a{
@@ -15,9 +15,6 @@ a{
 h1{
     font-size: 40px;
     margin: 0;
-}
-h3{
-
 }
 h4{
     width: 450px;
@@ -58,13 +55,14 @@ p{
 .first-section{
     background-image: url("images/header-bg.png");
     background-position: center;
+    background-size: auto;
 }
 .second-section{
     background-image: url("images/biography-bg.png");
     background-position: center;
 }
 #biography{
-    margin: 190px 0px;
+    margin: 190px 7%;
 }
 .third-section{
     background-image: url("images/latest-work-bg.png");
@@ -112,18 +110,42 @@ p{
     margin-top: 50px;
     position: relative;
     top: 60px;
+    width: 100%;
 }
-.width{
-    height: 800px;
+.height{
+    height: 670px;
     padding-bottom: 70px;
 }
 .founder-margin{
     padding: 0px;
     margin: 5px;
 }
+.height-extra{
+    height: 630px;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
 footer{
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media query*/
 @media (max-width: 400px){
        /*changed*/
@@ -138,9 +160,6 @@ footer{
     h1{
         font-size: 27px;
         margin: 0;
-    }
-    h3{
-    
     }
     h4{
         width: 450px;
