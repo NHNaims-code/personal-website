@@ -1,10 +1,260 @@
 body{
     margin: 0;
     padding: 0;
-   
+    font-family: 'Poppins', sans-serif;
     
 }
-.img img{
+
+section{
+    height: 3480px;
     width: 100%;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+h3{
+
+}
+h4{
+    width: 450px;
+    margin: 60px auto;
+    color: gray;
+}
+
+p{
+    color: gray;
+    padding: 5% 0%;
+}
+.speacial-margin{
+    position: relative;
+    left: 10%;
+    top: 5%;
+}
+.red-highlight{
+    color: tomato;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+.button-design{
+    background: hotpink;
+    padding: 5px 20px;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px;
+}
+.half-width{
+    width: 35%;
     float: left;
+    margin: 7.5%;
+}
+.half-width img{
+    width: 100%;
+}
+.first-section{
+    background-image: url("images/header-bg.png");
+    background-position: center;
+}
+.second-section{
+    background-image: url("images/biography-bg.png");
+    background-position: center;
+}
+#biography{
+    margin: 190px 0px;
+}
+.third-section{
+    background-image: url("images/latest-work-bg.png");
+    background-position: center;
+}
+.fourth-section{
+    background-image: url("images/footer-bg.png");
+    text-align: center;
+}
+.images{
+    padding: 10%;
+}
+.image{
+    width: 29.33%;
+    float: left;
+    padding: 2%;
+}
+.image img{
+    width: 100%;
+}
+.founder{
+    margin-top: 80px;
+}
+.contact{
+    width: 500px;
+    margin: 60px auto;
+    padding: 25px;
+}
+.contact p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+.contact h3{
+    margin: 0px 0px;
+    font-size: 25px;
+}
+#white-color{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.latest-work-title{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    top: 60px;
+}
+.width{
+    height: 800px;
+    padding-bottom: 70px;
+}
+.founder-margin{
+    padding: 0px;
+    margin: 5px;
+}
+footer{
+    text-align: center;
+}
+/* media query*/
+@media (max-width: 400px){
+       /*changed*/
+    section{
+        height: 2510px;
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+    }
+       /*changed*/
+    h1{
+        font-size: 27px;
+        margin: 0;
+    }
+    h3{
+    
+    }
+    h4{
+        width: 450px;
+        margin: 60px auto;
+        color: gray;
+    }
+    
+    p{
+        color: gray;
+        padding: 5% 0%;
+    }
+    .speacial-margin{
+        position: relative;
+        left: 10%;
+        top: 5%;
+    }
+    .red-highlight{
+        color: tomato;
+        font-size: 17px;
+        margin: 0;
+        padding: 0;
+    }
+    .button-design{
+        background: hotpink;
+        padding: 5px 10px;
+        font-size: 25px;
+        color: white;
+        border-radius: 5px;
+    }
+    .half-width{
+        width: 35%;
+        float: left;
+        margin: 7.5%;
+    }
+    .half-width img{
+        width: 100%;
+    }
+    .first-section{
+        background-image: url("images/header-bg.png");
+        background-position: center;
+    }
+    .second-section{
+        background-image: url("images/biography-bg.png");
+        background-position: center;
+    }
+
+    #biography{
+        margin: 5px 0px;
+    }
+    .third-section{
+        background-image: url("images/latest-work-bg.png");
+        background-position: center;
+    }
+    .fourth-section{
+        background-image: url("images/footer-bg.png");
+        text-align: center;
+    }
+    .images{
+        padding: 10%;
+    }
+    .image{
+        width: 80%;
+        float: none;
+        margin: 10px auto;
+        padding: 2%;
+    }
+    .image img{
+        width: 100%;
+    }
+    .founder{
+        margin-top: 80px;
+    }
+    .contact{
+        width: 500px;
+        margin: 60px auto;
+        padding: 25px;
+    }
+    .contact p{
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+    }
+    .contact h3{
+        margin: 0px 0px;
+        font-size: 25px;
+    }
+    #white-color{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+    }
+       /*changed*/
+    .latest-work-title{
+        text-align: center;
+        margin-top: 27px;
+        position: relative;
+        top: 27px;
+    }
+    /*changed*/
+    .height{
+        height: 325px;
+        width: 550px;
+        padding-bottom: 70px;
+    }
+       /*changed*/
+    .height-extra{
+        height: 1100px;
+        width: 550px;
+        padding-bottom: 70px;
+    }
+
+       /*changed*/
+    footer{
+        text-align: center;
+        padding-bottom: 15px;
+    }
 }
